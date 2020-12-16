@@ -67,6 +67,11 @@ public class RequestDB {
         return false;
     }
 
+    public Vector<Request> getAll() //TODO: Ditambah Peter buat bikin getFillteredPhotographer(), Henry tolong taruh logikanya buat ambil data
+    {
+        return new Vector<Request>();
+    }
+
     public Vector<Request> getAll(int requestID){
         String selection ="requestID=?";
         String[] selectionArgs = {""+requestID};
