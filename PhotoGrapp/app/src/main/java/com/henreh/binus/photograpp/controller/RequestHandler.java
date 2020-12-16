@@ -35,6 +35,8 @@ public class RequestHandler {
         return requestDB.delete(requestID);
     }
 
+    public Vector<Request> getAll(){ return requestDB.getAll();} //Ditambah Peter buat bikin getFillteredPhotographer()
+
     public Vector<Request> getAll(int requestID){
         return requestDB.getAll(requestID);
     }
@@ -43,7 +45,48 @@ public class RequestHandler {
         return requestDB.getForUser(userID);
     }
 
-    public Vector<Request> getForPhotographers(int photographerID){
+    public Vector<Request> getRequestsForPhotographers(int photographerID){
         return requestDB.getForPhotographers(photographerID);
+    }
+
+    public Vector<Request> getPendingRequestsForUser(Integer userID){
+
+        Vector<Request> allRequests = requestDB.getAll(userID);
+
+        Vector<Request> pendingRequests = new Vector<>();
+
+        for (Request r: allRequests) {
+            if(r.status == 1){
+                pendingRequests.add(r);
+            }
+        }
+        return pendingRequests;
+    }
+
+    public Vector<Request> getActiveRequestsForUser(Integer userID){
+
+        Vector<Request> allRequests = requestDB.getAll(userID);
+
+        Vector<Request> activeRequests = new Vector<>();
+
+        for (Request r: allRequests) {
+            if(r.status == 2){
+                activeRequests.add(r);
+            }
+        }
+        return activeRequests;
+    }
+
+    public Vector<Request> getFinishedRequestsForUser(Integer userID){
+        Vector<Request> allRequests = requestDB.getAll(userID);
+
+        Vector<Request> finishedRequests = new Vector<>();
+
+        for (Request r: allRequests) {
+            if(r.status == 3){
+                finishedRequests.add(r);
+            }
+        }
+        return finishedRequests;
     }
 }
