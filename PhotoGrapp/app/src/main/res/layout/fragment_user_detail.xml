@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDetailFragment"
+    android:background="#00FFFFFF">
+
+
+    <RelativeLayout
+        android:layout_width="328dp"
+        android:layout_height="312dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:id="@+id/profilePic"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/profile_pic_shape"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/orderName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignTop="@+id/profilePic"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="12dp"
+            android:layout_toEndOf="@+id/profilePic"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:text="[orderName]" />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/orderName"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="12dp"
+            android:layout_toEndOf="@+id/profilePic"
+            android:text="[category]"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/calenderIcon"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_below="@+id/category"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/profilePic"
+            android:src="@drawable/CalenderIcon" />
+        <ImageView
+            android:id="@+id/gpsIcon"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_below="@+id/calenderIcon"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/profilePic"
+            android:src="@drawable/GpsIcon" />
+        <ImageView
+            android:id="@+id/priceIcon"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_below="@+id/gpsIcon"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/profilePic"
+            android:src="@drawable/PriceIcon" />
+
+        <TextView
+            android:id="@+id/orderDate"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_below="@+id/category"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="12dp"
+            android:layout_toEndOf="@+id/calenderIcon"
+            android:textSize="8dp"
+            android:text="[orderDate]" />
+
+        <TextView
+            android:id="@+id/orderLocation"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_below="@id/orderDate"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="12dp"
+            android:layout_toEndOf="@+id/gpsIcon"
+            android:textSize="8dp"
+            android:text="[orderLocation]" />
+
+        <TextView
+            android:id="@+id/orderPrice"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_below="@+id/orderLocation"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="12dp"
+            android:layout_toEndOf="@+id/priceIcon"
+            android:textSize="8dp"
+            android:text="[orderPrice]" />
+
+        <TextView
+            android:id="@+id/descriptionLabel"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/priceIcon"
+            android:layout_alignStart="@+id/profilePic"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="12dp"
+            android:text="Description"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/descriptionLabel"
+            android:layout_alignStart="@+id/descriptionLabel"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="start|top"
+            android:text="[lorem ipsum tralala description]"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="BACK"
+            app:backgroundTint="#323232" />
+
+
+    </RelativeLayout>
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>
