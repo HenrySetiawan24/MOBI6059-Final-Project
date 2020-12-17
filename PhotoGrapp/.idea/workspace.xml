@@ -2,7 +2,9 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel" />
+      </config>
     </shared>
   </component>
   <component name="AutoImportSettings">
@@ -28,6 +30,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd3ea20b-dd26-4926-bf54-434de26f904f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/UserAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/UserDetailFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/UserListFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/CalenderIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/FilterIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/GpsIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/PriceIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/SortIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/user_recycler_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/DB/Request/RequestDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/DB/Request/RequestDB.java" afterDir="false" />
@@ -47,9 +63,19 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -77,6 +103,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alvin\Desktop\PhotogrApp\MOBI6059-Final-Project\PhotoGrapp\app\src\main\res\drawable-v24" />
+    </key>
     <key name="android.template.1344903897">
       <recent name="com.henreh.binus.photograpp" />
     </key>
@@ -180,10 +209,22 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1238" y="97" key="#Project_Structure/0.0.2560.1080@0.0.2560.1080" timestamp="1607423179201" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608144878931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608144878931" />
+    <state x="1219" y="302" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1608143502633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1219" y="302" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608143502633" />
     <state x="1032" y="278" key="AndroidCreateResourceDirectoryDialog" timestamp="1607436395309">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1032" y="278" key="AndroidCreateResourceDirectoryDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1607436395309" />
+    <state x="1080" y="225" key="AndroidCreateResourceFileDialog" timestamp="1608190405599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1080" y="225" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608190405599" />
     <state x="1297" y="309" key="AndroidCreateXmlResourceDialog" timestamp="1607494819264">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -192,5 +233,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1268" y="301" key="chooseDestDirectoryDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1607496908377" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1608152002558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608152002558" />
   </component>
 </project>
