@@ -4,8 +4,8 @@
         "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.jpeg.flat",
-        "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\drawable\\background.jpeg"
+        "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_background_img.png.flat",
+        "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\background_img.png"
     },
     {
         "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user_detail.xml.flat",
@@ -18,6 +18,14 @@
     {
         "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_photographer_specialty_recycler.xml.flat",
+        "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\layout\\photographer_specialty_recycler.xml"
+    },
+    {
+        "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_background.jpeg.flat",
+        "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\background.jpeg"
     },
     {
         "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -70,6 +78,10 @@
     {
         "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_price_icon.png.flat",
         "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\drawable\\price_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_photographer_products_recycler.xml.flat",
+        "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\layout\\photographer_products_recycler.xml"
     },
     {
         "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
@@ -160,6 +172,10 @@
         "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
+        "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_history_recycler_view.xml.flat",
+        "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\layout\\history_recycler_view.xml"
+    },
+    {
         "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
@@ -200,6 +216,10 @@
         "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\drawable\\mail_icon.png"
     },
     {
+        "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_photographer_details.xml.flat",
+        "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\layout\\fragment_photographer_details.xml"
+    },
+    {
         "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
@@ -210,9 +230,5 @@
     {
         "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clock_icon.png.flat",
         "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\drawable\\clock_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_img.png.flat",
-        "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\drawable\\background_img.png"
     }
 ]

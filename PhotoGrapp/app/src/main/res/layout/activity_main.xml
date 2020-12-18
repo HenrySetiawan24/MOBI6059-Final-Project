@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@mipmap/background_img">
     <fragment
         android:id="@+id/headerFragment"
         class="com.henreh.binus.photograpp.ProfileFragment"
         android:layout_width="match_parent"
-        android:layout_height="135dp"/>
+        android:layout_height="135dp"
+        android:layout_alignParentTop="true"/>
 
     <FrameLayout
         android:id="@+id/mainFragment"
         android:layout_width="match_parent"
-        android:layout_height="400dp"/>
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"/>
 
     <fragment
         android:id="@+id/footerFragment"
         class="com.henreh.binus.photograpp.FooterFragment"
         android:layout_width="match_parent"
-        android:layout_height="92dp"/>
-</LinearLayout>
+        android:layout_height="92dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
