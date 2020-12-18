@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/BackGroundImg"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/lookForPhotographer"
+        android:layout_width="327dp"
+        android:layout_height="97dp"
+        android:layout_above="@+id/activeRequests"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="48dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingLeft="112dp"
+        android:textStyle="bold"
+        android:text="Look for
+        Photographer"
+        android:textAlignment="textStart"
+        android:textSize="28dp" />
+
+
+    <TextView
+        android:id="@+id/activeRequests"
+        android:layout_width="327dp"
+        android:layout_height="97dp"
+        android:textStyle="bold"
+        android:layout_above="@+id/pendingRequests"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="48dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingLeft="112dp"
+        android:text="Active Requests"
+        android:textAlignment="textStart"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/pendingRequests"
+        android:layout_width="327dp"
+        android:textStyle="bold"
+        android:layout_height="97dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="184dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingLeft="112dp"
+        android:text="Pending Requests"
+        android:textAlignment="textStart"
+        android:textSize="28dp" />
+
+    <ImageView
+        android:id="@+id/camIconLookForP"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignStart="@+id/lookForPhotographer"
+        android:layout_alignTop="@+id/lookForPhotographer"
+        android:layout_alignBottom="@+id/lookForPhotographer"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/Camera_Icon" />
+
+    <ImageView
+        android:id="@+id/camIconActiveRequest"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignStart="@+id/activeRequests"
+        android:layout_alignTop="@+id/activeRequests"
+        android:layout_alignBottom="@+id/activeRequests"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/Camera_Icon" />
+
+    <ImageView
+        android:id="@+id/searchIcon"
+        android:layout_width="32dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/camIconLookForP"
+        android:layout_alignEnd="@+id/camIconLookForP"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="-15dp"
+        android:src="@drawable/Search_Icon" />
+
+    <ImageView
+        android:id="@+id/clockIcon4"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignStart="@+id/pendingRequests"
+        android:layout_alignTop="@+id/pendingRequests"
+        android:layout_alignBottom="@+id/pendingRequests"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/Clock_Icon" />
+
+
+</RelativeLayout>

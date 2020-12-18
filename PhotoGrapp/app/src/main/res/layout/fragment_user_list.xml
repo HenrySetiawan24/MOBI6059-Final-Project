@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserListFragment"
+    android:background="@drawable/BackGroundImg">
+
+    <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/searchBar"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="160dp"
+            android:width="256dp"
+            android:background="@color/white"
+            android:focusable="true"
+            android:text="Search.." />
+
+
+    <ImageButton
+        android:id="@+id/searchButton"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/searchBar"
+        android:layout_alignEnd="@+id/searchBar"
+        android:layout_alignBottom="@+id/searchBar"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Search_Icon" />
+
+        <ImageButton
+            android:id="@+id/sortButton"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="152dp"
+            android:layout_toEndOf="@+id/searchBar"
+            android:scaleType="fitCenter"
+            android:src="@drawable/SortIcon" />
+
+        <ImageButton
+            android:id="@+id/filterButton"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="152dp"
+            android:layout_marginEnd="32dp"
+            android:layout_toEndOf="@+id/sortButton"
+            android:scaleType="fitCenter"
+            android:src="@drawable/FilterIcon" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchBar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="92dp" />
+
+
+
+</RelativeLayout>
