@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FooterFragment"
+    android:background="#00FFFFFF">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:background="#393939"
+        android:layout_gravity="center|bottom">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="64dp">
+
+            <ImageView
+                android:id="@+id/homeIcon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/HomeIcon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/homeIcon"
+                android:layout_alignLeft="@+id/homeIcon"
+                android:layout_alignRight="@+id/homeIcon"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:text="Home"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/profileIcon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ProfileIcon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profileIcon"
+                android:layout_alignLeft="@+id/profileIcon"
+                android:layout_alignRight="@+id/profileIcon"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:text="Profile"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="64dp">
+
+            <ImageView
+                android:id="@+id/historyIcon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/HistoryIcon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/historyIcon"
+                android:layout_alignLeft="@+id/historyIcon"
+                android:layout_alignRight="@+id/historyIcon"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:text="Profile"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </FrameLayout>
+    <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>

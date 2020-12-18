@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00454545">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/photographerButton"
+            android:layout_width="327dp"
+            android:layout_height="97dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="48dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:paddingLeft="112dp"
+            app:backgroundTint="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/profilePic"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignStart="@+id/photographerButton"
+            android:layout_alignTop="@+id/photographerButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/profile_pic_shape" />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/photographerButton"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/profilePic"
+            android:text="[userName]"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/specialty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userName"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/profilePic"
+            android:text="Specialty: [specialties]"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/gpsIcon"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_below="@+id/specialty"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/profilePic"
+            app:srcCompat="@drawable/gps_icon" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/specialty"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/gpsIcon"
+            android:text="[location]"
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
