@@ -11,7 +11,6 @@ public class ProfileFragment extends Fragment {
     public ProfileFragment() {
         // Required empty public constructor
     }
-
     @Override
     public void onStart() {
         super.onStart();
