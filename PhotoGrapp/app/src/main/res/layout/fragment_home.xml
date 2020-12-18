@@ -12,7 +12,8 @@
         android:id="@+id/lookForPhotographerBtn"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="50dp"
+        >
         <TextView
             android:id="@+id/lookForPhotographer"
             android:layout_width="wrap_content"

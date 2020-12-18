@@ -12,7 +12,7 @@ import androidx.fragment.app.FragmentManager;
 import android.view.View;
 import android.widget.FrameLayout;
 
-public class MainActivity extends AppCompatActivity implements FooterFragment.footerListener{
+public class MainActivity extends AppCompatActivity implements FooterFragment.footerListener, HomeFragment.homeListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +44,27 @@ public class MainActivity extends AppCompatActivity implements FooterFragment.fo
     @Override
     public void historyOnClick() {
 //        History fragment = new ProfileFragment();
+//
+//        FragmentManager fragmentManager = getSupportFragmentManager();
+//        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
+    }
+
+    public void lookFor_Photographer(){
+//        HomeFragment fragment = new HomeFragment(); //TODO: change this
+//
+//        FragmentManager fragmentManager = getSupportFragmentManager();
+//        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
+    }
+
+    public void lookFor_PendingRequests(){
+//        HomeFragment fragment = new HomeFragment(); //TODO: change this
+//
+//        FragmentManager fragmentManager = getSupportFragmentManager();
+//        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
+    }
+
+    public void lookFor_ActiveRequests(){
+//        HomeFragment fragment = new HomeFragment(); //TODO: change this
 //
 //        FragmentManager fragmentManager = getSupportFragmentManager();
 //        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
