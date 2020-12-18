@@ -23,19 +23,6 @@ public class MainActivity extends AppCompatActivity implements FooterFragment.fo
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.mainFragment, homeFragment).commit();
-//        HomeFragment homeFragment = new HomeFragment();
-//        getSupportFragmentManager().beginTransaction().add(R.id.mainFrame.homeFragment).commit();
-//        Toolbar toolbar = findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-
-//        FloatingActionButton fab = findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
     }
 
     @Override
@@ -48,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements FooterFragment.fo
 
     @Override
     public void profileOnClick() {
-        ProfileFragment fragment = new ProfileFragment();
+        UserDetailFragment fragment = new UserDetailFragment();
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();

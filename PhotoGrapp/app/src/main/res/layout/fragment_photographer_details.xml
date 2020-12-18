@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotographerDetailFragment"
+    android:background="#00FFFFFF">
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="328dp"
+                android:layout_height="480dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                >
+
+        <ImageView
+            android:id="@+id/profilePic"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/profile_pic_shape"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/photographerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/profilePic"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="12dp"
+            android:layout_toEndOf="@+id/profilePic"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:text="[photographerName]" />
+
+
+
+        <TextView
+            android:id="@+id/descriptionLabel"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/profilePic"
+            android:layout_alignStart="@+id/profilePic"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="bottom"
+            android:text="Description"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/descriptionLabel"
+            android:layout_alignStart="@+id/descriptionLabel"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="start|top"
+            android:text="[lorem ipsum tralala description]"/>
+
+        <TextView
+            android:id="@+id/specialtyLabel"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/description"
+            android:layout_alignStart="@+id/profilePic"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="bottom"
+            android:text="Specialty"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/specialtyContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@id/specialtyLabel"
+                    android:layout_alignStart="@+id/specialtyLabel"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_centerHorizontal="true">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/specialty_recycler"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+        <TextView
+            android:id="@+id/productLabel"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/specialtyContainer"
+            android:layout_alignStart="@+id/profilePic"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="bottom"
+            android:text="Products"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/productContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@id/productLabel"
+                    android:layout_alignStart="@+id/specialtyLabel"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_centerHorizontal="true">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/products_recycler"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/backButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/productContainer"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:text="BACK"
+                    app:backgroundTint="#323232" />
+
+                <Button
+                    android:id="@+id/hireButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/productContainer"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:text="HIRE"
+                    app:backgroundTint="#03A818" />
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+<!--    </RelativeLayout>-->
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>

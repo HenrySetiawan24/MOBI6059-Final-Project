@@ -8,13 +8,14 @@
     android:background="#00FFFFFF">
 
     <FrameLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="92dp"
         android:background="#393939"
         android:layout_gravity="center|bottom">
 
         <RelativeLayout
-            android:id="@+id/homebtn"
+            android:id="@+id/homeBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|left"
@@ -24,8 +25,7 @@
                 android:id="@+id/homeIcon"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:background="@drawable/home_icon"
-                android:onClick="homeOnClick"/>
+                android:background="@drawable/home_icon"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -39,7 +39,6 @@
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:textAlignment="center" />
-
         </RelativeLayout>
 
         <RelativeLayout
@@ -52,8 +51,7 @@
                 android:id="@+id/profileIcon"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:background="@drawable/profile_icon"
-                android:onClick="profileOnClick"/>
+                android:background="@drawable/profile_icon"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -81,8 +79,7 @@
                 android:id="@+id/historyIcon"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:background="@drawable/history_icon"
-                android:onClick="historyOnClick"/>
+                android:background="@drawable/history_icon"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -96,10 +93,6 @@
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:textAlignment="center" />
-
         </RelativeLayout>
     </FrameLayout>
-    <!-- TODO: Update blank fragment layout -->
-
-
 </FrameLayout>
