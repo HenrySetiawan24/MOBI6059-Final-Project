@@ -23,7 +23,7 @@
                 android:id="@+id/homeIcon"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@drawable/HomeIcon" />
+                android:src="@drawable/home_icon" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -49,7 +49,7 @@
                 android:id="@+id/profileIcon"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@drawable/ProfileIcon" />
+                android:src="@drawable/profile_icon" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
                 android:id="@+id/historyIcon"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@drawable/HistoryIcon" />
+                android:src="@drawable/history_icon" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -92,13 +92,6 @@
                 android:textAlignment="center" />
 
         </RelativeLayout>
-
-
-
-
-
-
-
     </FrameLayout>
     <!-- TODO: Update blank fragment layout -->
 
