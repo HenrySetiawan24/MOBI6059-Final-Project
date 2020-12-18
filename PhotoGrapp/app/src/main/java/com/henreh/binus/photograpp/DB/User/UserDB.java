@@ -95,4 +95,11 @@ public class UserDB {
 
         return user;
     }
+
+    public User get(String userEmail){ //TODO: Henry, tolong tambahin logika buat nyari User dengan email yg di argumentasikan
+
+        User user = new User();
+
+        return user;
+    }
 }
