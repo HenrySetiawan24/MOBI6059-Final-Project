@@ -1914,10 +1914,10 @@ int id mtrl_picker_text_input_range_end 0x7f08010e
 int id mtrl_picker_text_input_range_start 0x7f08010f
 int id mtrl_picker_title_text 0x7f080110
 int id multiply 0x7f080111
-int id nav_controller_view_tag 0x7f080112
-int id nav_graph 0x7f080113
-int id nav_host_fragment_container 0x7f080114
-int id navbarIcon 0x7f080115
+int id navBarIcon 0x7f080112
+int id nav_controller_view_tag 0x7f080113
+int id nav_graph 0x7f080114
+int id nav_host_fragment_container 0x7f080115
 int id navigation_header_container 0x7f080116
 int id never 0x7f080117
 int id noScroll 0x7f080118
