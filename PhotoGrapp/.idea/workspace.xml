@@ -3,9 +3,13 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
+        <device id="Galaxy S7" />
         <device id="pixel" />
       </config>
     </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
@@ -30,20 +34,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd3ea20b-dd26-4926-bf54-434de26f904f" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/FooterFragment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/HistoryIcon.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/HomeIcon.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ProfileIcon.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_footer.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/henreh/binus/photograpp/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+>>>>>>> origin/master
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/PhotoGrapp.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/PhotoGrapp.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/ProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/BackGroundImg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/CalenderIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/calendar_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Camera_Icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/camera_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Clock_Icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/clock_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/FilterIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/filter_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/GpsIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gps_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/LeftArrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/left_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/LogoutIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logout_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/MailIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mail_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/NavbarIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/navbar_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/PriceIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/price_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Search_Icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/search_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/SortIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sort_icon.png" afterDir="false" />
+>>>>>>> origin/master
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sidemenu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sidemenu.xml" afterDir="false" />
+<<<<<<< HEAD
 =======
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -53,13 +92,19 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/controller/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/controller/RequestHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/controller/UserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/henreh/binus/photograpp/controller/UserHandler.java" afterDir="false" />
 >>>>>>> e13e13f33d891a397aea515771efb0028c8018aa
+=======
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/user_recycler_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/user_recycler_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+>>>>>>> origin/master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[ce041604b0d6382803]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -120,7 +165,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="PhotoGrapp.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -211,6 +256,10 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1238" y="97" key="#Project_Structure/0.0.2560.1080@0.0.2560.1080" timestamp="1607423179201" />
+    <state x="1515" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1608275380682">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1515" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1608275380682" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608144878931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,6 +280,26 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1297" y="309" key="AndroidCreateXmlResourceDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1607494819264" />
+    <state width="1651" height="159" key="GridCell.Tab.0.bottom" timestamp="1608281833534">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1651" height="159" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1608281833534" />
+    <state width="1651" height="159" key="GridCell.Tab.0.center" timestamp="1608281833534">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1651" height="159" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1608281833534" />
+    <state width="1651" height="159" key="GridCell.Tab.0.left" timestamp="1608281833534">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1651" height="159" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1608281833534" />
+    <state width="1651" height="159" key="GridCell.Tab.0.right" timestamp="1608281833534">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1651" height="159" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1608281833534" />
+    <state x="1211" y="164" key="SettingsEditor" timestamp="1608268694464">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1211" y="164" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1608268694464" />
     <state x="1268" y="301" key="chooseDestDirectoryDialog" timestamp="1607496908377">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

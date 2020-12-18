@@ -61,7 +61,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="0dp"
             android:layout_toEndOf="@+id/profilePic"
-            android:src="@drawable/CalenderIcon" />
+            android:src="@drawable/calendar_icon" />
         <ImageView
             android:id="@+id/gpsIcon"
             android:layout_width="12dp"
@@ -70,7 +70,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="0dp"
             android:layout_toEndOf="@+id/profilePic"
-            android:src="@drawable/GpsIcon" />
+            android:src="@drawable/gps_icon" />
         <ImageView
             android:id="@+id/priceIcon"
             android:layout_width="12dp"
@@ -79,7 +79,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="0dp"
             android:layout_toEndOf="@+id/profilePic"
-            android:src="@drawable/PriceIcon" />
+            android:src="@drawable/price_icon" />
 
         <TextView
             android:id="@+id/orderDate"
