@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\Check\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
+            "outputFile": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Henry Setiawan\\.gradle\\caches\\transforms-2\\files-2.1\\e3d7830f778f31330c967610f2dc1b90\\navigation-ui-2.3.1\\res\\values-pl\\values-pl.xml",

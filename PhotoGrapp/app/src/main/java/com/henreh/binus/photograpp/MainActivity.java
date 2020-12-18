@@ -10,14 +10,19 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.FragmentManager;
 
 import android.view.View;
+import android.widget.FrameLayout;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements FooterFragment.footerListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        HomeFragment homeFragment = new HomeFragment();
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.mainFragment, homeFragment).commit();
 //        HomeFragment homeFragment = new HomeFragment();
 //        getSupportFragmentManager().beginTransaction().add(R.id.mainFrame.homeFragment).commit();
 //        Toolbar toolbar = findViewById(R.id.toolbar);
@@ -31,5 +36,29 @@ public class MainActivity extends AppCompatActivity {
 //                        .setAction("Action", null).show();
 //            }
 //        });
+    }
+
+    @Override
+    public void homeOnClick() {
+        HomeFragment fragment = new HomeFragment();
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
+    }
+
+    @Override
+    public void profileOnClick() {
+        ProfileFragment fragment = new ProfileFragment();
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
+    }
+
+    @Override
+    public void historyOnClick() {
+//        History fragment = new ProfileFragment();
+//
+//        FragmentManager fragmentManager = getSupportFragmentManager();
+//        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
     }
 }
