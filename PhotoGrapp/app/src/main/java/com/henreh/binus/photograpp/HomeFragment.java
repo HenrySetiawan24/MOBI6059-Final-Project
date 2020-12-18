@@ -14,7 +14,11 @@ public class HomeFragment extends Fragment {
     public HomeFragment() {
         // Required empty public constructor
     }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 027781887a6cb983391703efe4ae0ed3130c8ea6
     @Override
     public void onStart() {
         super.onStart();

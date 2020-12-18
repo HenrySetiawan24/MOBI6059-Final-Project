@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 027781887a6cb983391703efe4ae0ed3130c8ea6
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+<<<<<<< HEAD
     android:orientation="vertical">
     <fragment
         android:id="@+id/headerFragment"
@@ -23,3 +28,32 @@
         android:layout_width="match_parent"
         android:layout_height="92dp"/>
 </LinearLayout>
+=======
+    android:background="@drawable/BackGroundImg">
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/mainFrame">-->
+
+<!--    </FrameLayout>-->
+    <fragment
+        android:id="@+id/headerFragment"
+        class="com.henreh.binus.photograpp.ProfileFragment"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"/>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        class="com.henreh.binus.photograpp.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="135dp"/>
+
+    <fragment
+        android:id="@+id/footerFragment"
+        class="com.henreh.binus.photograpp.ProfileFragment"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"/>
+</RelativeLayout>
+>>>>>>> 027781887a6cb983391703efe4ae0ed3130c8ea6

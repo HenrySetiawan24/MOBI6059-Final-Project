@@ -116,4 +116,8 @@
             android:layout_marginBottom="11dp"
             android:src="@drawable/clock_icon" />
     </RelativeLayout>
+<<<<<<< HEAD
 </LinearLayout>
+=======
+</LinearLayout>
+>>>>>>> 027781887a6cb983391703efe4ae0ed3130c8ea6

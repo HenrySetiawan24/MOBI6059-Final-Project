@@ -48,4 +48,8 @@
         android:textStyle="bold"
         android:textColor="@color/white"
         android:layout_marginLeft="70dp"/>
+<<<<<<< HEAD
 </LinearLayout>
+=======
+</LinearLayout>
+>>>>>>> 027781887a6cb983391703efe4ae0ed3130c8ea6

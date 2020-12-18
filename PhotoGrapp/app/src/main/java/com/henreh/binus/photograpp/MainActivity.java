@@ -19,10 +19,13 @@ public class MainActivity extends AppCompatActivity implements FooterFragment.fo
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+<<<<<<< HEAD
         HomeFragment homeFragment = new HomeFragment();
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.mainFragment, homeFragment).commit();
+=======
+>>>>>>> 027781887a6cb983391703efe4ae0ed3130c8ea6
 //        HomeFragment homeFragment = new HomeFragment();
 //        getSupportFragmentManager().beginTransaction().add(R.id.mainFrame.homeFragment).commit();
 //        Toolbar toolbar = findViewById(R.id.toolbar);
@@ -36,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements FooterFragment.fo
 //                        .setAction("Action", null).show();
 //            }
 //        });
+<<<<<<< HEAD
     }
 
     @Override
@@ -60,5 +64,7 @@ public class MainActivity extends AppCompatActivity implements FooterFragment.fo
 //
 //        FragmentManager fragmentManager = getSupportFragmentManager();
 //        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
+=======
+>>>>>>> 027781887a6cb983391703efe4ae0ed3130c8ea6
     }
 }

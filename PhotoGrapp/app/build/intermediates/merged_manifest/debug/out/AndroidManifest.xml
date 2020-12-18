@@ -18,7 +18,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.PhotoGrapp" >
+<<<<<<< HEAD
         <activity android:name="com.henreh.binus.photograpp.Register" />
+=======
+>>>>>>> 027781887a6cb983391703efe4ae0ed3130c8ea6
         <activity
             android:name="com.henreh.binus.photograpp.MainActivity"
             android:label="Photograph"
