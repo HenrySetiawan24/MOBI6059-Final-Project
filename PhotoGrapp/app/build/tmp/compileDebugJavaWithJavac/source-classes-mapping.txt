@@ -1,0 +1,53 @@
+com/henreh/binus/photograpp/model/Request.java
+ com.henreh.binus.photograpp.model.Request
+com/henreh/binus/photograpp/DB/Photographer/DBHelper.java
+ com.henreh.binus.photograpp.DB.Photographer.DBHelper
+com/henreh/binus/photograpp/ProfileFragment.java
+ com.henreh.binus.photograpp.ProfileFragment
+com/henreh/binus/photograpp/UserListFragment.java
+ com.henreh.binus.photograpp.UserListFragment
+com/henreh/binus/photograpp/model/User.java
+ com.henreh.binus.photograpp.model.User
+com/henreh/binus/photograpp/DB/Request/RequestDB.java
+ com.henreh.binus.photograpp.DB.Request.RequestDB
+com/henreh/binus/photograpp/DB/Request/DBHelper.java
+ com.henreh.binus.photograpp.DB.Request.DBHelper
+com/henreh/binus/photograpp/BuildConfig.java
+ com.henreh.binus.photograpp.BuildConfig
+com/henreh/binus/photograpp/Login.java
+ com.henreh.binus.photograpp.Login
+com/henreh/binus/photograpp/controller/UserHandler.java
+ com.henreh.binus.photograpp.controller.UserHandler
+com/henreh/binus/photograpp/FooterFragment.java
+ com.henreh.binus.photograpp.FooterFragment
+ com.henreh.binus.photograpp.FooterFragment$footerListener
+com/henreh/binus/photograpp/FirstFragment.java
+ com.henreh.binus.photograpp.FirstFragment
+ com.henreh.binus.photograpp.FirstFragment$1
+com/henreh/binus/photograpp/SecondFragment.java
+ com.henreh.binus.photograpp.SecondFragment
+ com.henreh.binus.photograpp.SecondFragment$1
+com/henreh/binus/photograpp/UserDetailFragment.java
+ com.henreh.binus.photograpp.UserDetailFragment
+com/henreh/binus/photograpp/controller/RequestHandler.java
+ com.henreh.binus.photograpp.controller.RequestHandler
+com/henreh/binus/photograpp/DB/User/UserDB.java
+ com.henreh.binus.photograpp.DB.User.UserDB
+com/henreh/binus/photograpp/UserAdapter.java
+ com.henreh.binus.photograpp.UserAdapter
+com/henreh/binus/photograpp/DB/Photographer/PhotographerDB.java
+ com.henreh.binus.photograpp.DB.Photographer.PhotographerDB
+com/henreh/binus/photograpp/DB/User/DBHelper.java
+ com.henreh.binus.photograpp.DB.User.DBHelper
+com/henreh/binus/photograpp/HomeFragment.java
+ com.henreh.binus.photograpp.HomeFragment
+com/henreh/binus/photograpp/Register.java
+ com.henreh.binus.photograpp.Register
+com/henreh/binus/photograpp/SidemenuFragment.java
+ com.henreh.binus.photograpp.SidemenuFragment
+com/henreh/binus/photograpp/model/Photographer.java
+ com.henreh.binus.photograpp.model.Photographer
+com/henreh/binus/photograpp/MainActivity.java
+ com.henreh.binus.photograpp.MainActivity
+com/henreh/binus/photograpp/controller/PhotographerHandler.java
+ com.henreh.binus.photograpp.controller.PhotographerHandler

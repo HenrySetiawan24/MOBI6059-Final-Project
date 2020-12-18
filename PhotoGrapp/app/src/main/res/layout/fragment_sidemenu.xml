@@ -25,7 +25,7 @@
                 android:layout_width="235dp"
                 android:layout_height="120dp"
                 android:layout_marginLeft="20dp"
-                android:src="@drawable/Logo" />
+                android:src="@drawable/logo" />
 
             <ImageView
                 android:id="@+id/leftArrow"
@@ -33,7 +33,7 @@
                 android:layout_height="27dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginBottom="12dp"
-                android:src="@drawable/LeftArrow" />
+                android:src="@drawable/left_arrow" />
 
             <!--Buat border-->
             <View
@@ -132,7 +132,7 @@
                     android:layout_width="32dp"
                     android:layout_height="46dp"
                     android:layout_gravity="bottom|right"
-                    android:src="@drawable/LogoutIcon" />
+                    android:src="@drawable/logout_icon" />
             </LinearLayout>
 
 

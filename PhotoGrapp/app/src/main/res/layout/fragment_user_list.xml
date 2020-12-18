@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserListFragment"
-    android:background="@drawable/BackGroundImg">
+    tools:context=".UserListFragment">
 
     <!-- TODO: Update blank fragment layout -->
         <TextView
@@ -34,7 +33,7 @@
         android:layout_marginBottom="1dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
-        android:src="@drawable/Search_Icon" />
+        android:src="@drawable/search_icon" />
 
         <ImageButton
             android:id="@+id/sortButton"
@@ -45,7 +44,7 @@
             android:layout_marginTop="152dp"
             android:layout_toEndOf="@+id/searchBar"
             android:scaleType="fitCenter"
-            android:src="@drawable/SortIcon" />
+            android:src="@drawable/sort_icon" />
 
         <ImageButton
             android:id="@+id/filterButton"
@@ -58,7 +57,7 @@
             android:layout_marginEnd="32dp"
             android:layout_toEndOf="@+id/sortButton"
             android:scaleType="fitCenter"
-            android:src="@drawable/FilterIcon" />
+            android:src="@drawable/filter_icon" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

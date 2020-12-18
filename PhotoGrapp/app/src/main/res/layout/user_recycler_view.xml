@@ -67,7 +67,7 @@
             android:layout_marginStart="12dp"
             android:layout_marginTop="4dp"
             android:layout_toEndOf="@+id/profilePic"
-            app:srcCompat="@drawable/GpsIcon" />
+            app:srcCompat="@drawable/gps_icon" />
 
         <TextView
             android:id="@+id/location"
