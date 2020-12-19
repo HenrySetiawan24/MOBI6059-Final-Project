@@ -2165,7 +2165,6 @@ layout abc_tooltip
 layout activity_login
 layout activity_main
 layout activity_register
-layout content_main
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

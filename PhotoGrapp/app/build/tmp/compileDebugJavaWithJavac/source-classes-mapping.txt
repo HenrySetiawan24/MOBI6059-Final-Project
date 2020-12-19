@@ -44,8 +44,8 @@ com/henreh/binus/photograpp/DB/Photographer/PhotographerDB.java
  com.henreh.binus.photograpp.DB.Photographer.PhotographerDB
 com/henreh/binus/photograpp/DB/User/DBHelper.java
  com.henreh.binus.photograpp.DB.User.DBHelper
-com/henreh/binus/photograpp/HomeFragment.java
- com.henreh.binus.photograpp.HomeFragment
+com/henreh/binus/photograpp/controller/PhotographerHandler.java
+ com.henreh.binus.photograpp.controller.PhotographerHandler
 com/henreh/binus/photograpp/PhotographerDetailFragment.java
  com.henreh.binus.photograpp.PhotographerDetailFragment
 com/henreh/binus/photograpp/Register.java
@@ -60,3 +60,9 @@ com/henreh/binus/photograpp/SidemenuFragment.java
  com.henreh.binus.photograpp.SidemenuFragment$SideMenuListener
 com/henreh/binus/photograpp/MainActivity.java
  com.henreh.binus.photograpp.MainActivity
+com/henreh/binus/photograpp/HomeFragment.java
+ com.henreh.binus.photograpp.HomeFragment
+ com.henreh.binus.photograpp.HomeFragment$1
+ com.henreh.binus.photograpp.HomeFragment$2
+ com.henreh.binus.photograpp.HomeFragment$3
+ com.henreh.binus.photograpp.HomeFragment$homeListener

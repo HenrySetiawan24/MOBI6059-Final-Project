@@ -47,6 +47,27 @@ public class MainActivity extends AppCompatActivity implements FooterFragment.fo
 //        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
     }
 
+    public void lookFor_Photographer(){
+//        HomeFragment fragment = new HomeFragment(); //TODO: change this
+//
+//        FragmentManager fragmentManager = getSupportFragmentManager();
+//        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
+    }
+
+    public void lookFor_PendingRequests(){
+//        HomeFragment fragment = new HomeFragment(); //TODO: change this
+//
+//        FragmentManager fragmentManager = getSupportFragmentManager();
+//        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
+    }
+
+    public void lookFor_ActiveRequests(){
+//        HomeFragment fragment = new HomeFragment(); //TODO: change this
+//
+//        FragmentManager fragmentManager = getSupportFragmentManager();
+//        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
+    }
+    
     @Override
     public void sideBarOnClick() {
         FragmentManager fragmentManager = getSupportFragmentManager();
