@@ -20,15 +20,15 @@ public class UserHandler {
         return userDB.insert(user);
     }
 
-    public Boolean Update(int userID, User updatedUser){
+    public Boolean Update(long userID, User updatedUser){
         return userDB.Update(userID, updatedUser);
     }
 
-    public Boolean delete(int userID){
+    public Boolean delete(long userID){
         return userDB.delete(userID);
     }
 
-    public User getOneUser(int userID){
+    public User getOneUser(long userID){
         return userDB.get(userID);
     }
 
@@ -41,7 +41,7 @@ public class UserHandler {
 
     }
 
-    public String getRole(Integer UserID){
+    public String getRole(long UserID){
 
         String role = "";
 

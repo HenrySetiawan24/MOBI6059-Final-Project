@@ -20,28 +20,28 @@ public class RequestHandler {
 
     public long insert(Request request){//validasi di handler: validate userID dan photographerID ada ditabel mereka.
 
-        if (userDB.get((int) request.userID) != null && photographerDB.get((int) request.photographerID) != null){
+        if (userDB.get(request.userID) != null && photographerDB.get((int) request.photographerID) != null){
             return requestDB.insert(request);
         }
 
         return -1;
     }
 
-    public Boolean Update(int userID, Request updatedRequest){
+    public Boolean Update(long userID, Request updatedRequest){
         return requestDB.Update(userID, updatedRequest);
     }
 
-    public Boolean delete(int requestID){
+    public Boolean delete(long requestID){
         return requestDB.delete(requestID);
     }
 
     public Vector<Request> getAll(){ return requestDB.getAll();} //Ditambah Peter buat bikin getFillteredPhotographer()
 
-    public Vector<Request> getAll(int requestID){
+    public Vector<Request> getAll(long requestID){
         return requestDB.getAll(requestID);
     }
 
-    public Vector<Request> getForUser(int userID){
+    public Vector<Request> getForUser(long userID){
         return requestDB.getForUser(userID);
     }
 
@@ -49,7 +49,7 @@ public class RequestHandler {
         return requestDB.getForPhotographers(photographerID);
     }
 
-    public Vector<Request> getPendingRequestsForUser(Integer userID){
+    public Vector<Request> getPendingRequestsForUser(long userID){
 
         Vector<Request> allRequests = requestDB.getAll(userID);
 
@@ -63,7 +63,7 @@ public class RequestHandler {
         return pendingRequests;
     }
 
-    public Vector<Request> getActiveRequestsForUser(Integer userID){
+    public Vector<Request> getActiveRequestsForUser(long userID){
 
         Vector<Request> allRequests = requestDB.getAll(userID);
 
@@ -77,7 +77,7 @@ public class RequestHandler {
         return activeRequests;
     }
 
-    public Vector<Request> getFinishedRequestsForUser(Integer userID){
+    public Vector<Request> getFinishedRequestsForUser(long userID){
         Vector<Request> allRequests = requestDB.getAll(userID);
 
         Vector<Request> finishedRequests = new Vector<>();

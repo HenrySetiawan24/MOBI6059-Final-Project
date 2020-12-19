@@ -155,7 +155,7 @@
             android:text="[lorem ipsum tralala description]"/>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/backBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"

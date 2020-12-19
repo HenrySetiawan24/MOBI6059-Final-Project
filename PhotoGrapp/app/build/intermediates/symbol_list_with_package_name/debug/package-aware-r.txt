@@ -1729,6 +1729,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backBtn
 id backButton
 id barrier
 id baseline
@@ -1846,6 +1847,7 @@ id hideable
 id hireButton
 id historyBtn
 id historyIcon
+id historyList
 id home
 id homeAsUp
 id homeBtn
@@ -2184,6 +2186,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_first
 layout fragment_footer
+layout fragment_history
 layout fragment_home
 layout fragment_photographer_details
 layout fragment_profile

@@ -22,15 +22,15 @@ public class PhotographerHandler {
         return photographerDB.insert(photographer);
     }
 
-    public Boolean Update(int userID, Photographer updatedPhotographer){
+    public Boolean Update(long userID, Photographer updatedPhotographer){
         return photographerDB.Update(userID, updatedPhotographer);
     }
 
-    public Boolean delete(int userID){
+    public Boolean delete(long userID){
         return photographerDB.delete(userID);
     }
 
-    public Photographer getOnePhotographer(int userID){
+    public Photographer getOnePhotographer(long userID){
         return photographerDB.get(userID);
     }
 

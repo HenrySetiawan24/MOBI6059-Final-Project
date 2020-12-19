@@ -12,7 +12,8 @@
         android:id="@+id/lookForPhotographerBtn"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="50dp"
+        android:clickable="true">
         <TextView
             android:id="@+id/lookForPhotographer"
             android:layout_width="wrap_content"
@@ -54,7 +55,8 @@
     <RelativeLayout
         android:id="@+id/activeRequestsBtn"
         android:layout_width="wrap_content"
-        android:layout_height="100dp">
+        android:layout_height="100dp"
+        android:clickable="true">
         <TextView
             android:id="@+id/activeRequests"
             android:layout_width="327dp"
@@ -86,7 +88,8 @@
     <RelativeLayout
         android:id="@+id/pendingRequestBtn"
         android:layout_width="wrap_content"
-        android:layout_height="100dp">
+        android:layout_height="100dp"
+        android:clickable="true">
 
         <TextView
             android:id="@+id/pendingtext"
