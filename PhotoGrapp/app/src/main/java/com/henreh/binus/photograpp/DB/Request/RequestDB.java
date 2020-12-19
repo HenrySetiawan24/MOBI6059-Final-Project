@@ -36,7 +36,7 @@ public class RequestDB {
         return id;
     }
 
-    public Boolean Update(int userID, Request updatedRequest){
+    public Boolean Update(long userID, Request updatedRequest){
         SQLiteDatabase db = dbHelper.getWritableDatabase();
 
         String selection ="id=?";
@@ -55,7 +55,7 @@ public class RequestDB {
         return false;
     }
 
-    public Boolean delete(int requestID){
+    public Boolean delete(long requestID){
         SQLiteDatabase db = dbHelper.getWritableDatabase();
 
         String selection ="id=?";
@@ -72,21 +72,21 @@ public class RequestDB {
         return new Vector<Request>();
     }
 
-    public Vector<Request> getAll(int requestID){
+    public Vector<Request> getAll(long requestID){
         String selection ="requestID=?";
         String[] selectionArgs = {""+requestID};
 
         return getList(selection, selectionArgs);
     }
 
-    public Vector<Request> getForUser(int userID){
+    public Vector<Request> getForUser(long userID){
         String selection ="userID=?";
         String[] selectionArgs = {""+userID};
 
         return getList(selection, selectionArgs);
     }
 
-    public Vector<Request> getForPhotographers(int photographerID){
+    public Vector<Request> getForPhotographers(long photographerID){
         String selection ="photographerID=?";
         String[] selectionArgs = {""+photographerID};
 

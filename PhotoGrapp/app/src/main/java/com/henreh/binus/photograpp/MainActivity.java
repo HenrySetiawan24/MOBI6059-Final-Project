@@ -14,8 +14,8 @@ import androidx.fragment.app.FragmentManager;
 import android.view.View;
 import android.widget.FrameLayout;
 
-public class MainActivity extends AppCompatActivity implements FooterFragment.footerListener, ProfileFragment.headerListener, SidemenuFragment.SideMenuListener {
-    private HomeFragment homeFragment = new HomeFragment();
+public class MainActivity extends AppCompatActivity implements FooterFragment.footerListener, ProfileFragment.headerListener, SidemenuFragment.SideMenuListener, HomeFragment.HomeFragmentListener{
+    private HomeFragment homeFragment = new HomeFragment();//non-dynamic fragments
     private SidemenuFragment sidemenuFragment = new SidemenuFragment();
 
     @Override
@@ -43,25 +43,36 @@ public class MainActivity extends AppCompatActivity implements FooterFragment.fo
 
     @Override
     public void historyOnClick() {
-            notImplemented();
-//        History fragment = new ProfileFragment();
-//
-//        FragmentManager fragmentManager = getSupportFragmentManager();
-//        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
+        HistoryFragment fragment = new HistoryFragment();
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.mainFragment, fragment).addToBackStack(null).commit();
     }
 
     @Override
     public void sideBarOnClick() {
         FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.sideMenu, sidemenuFragment).commit();
-        fragmentManager.beginTransaction().remove(homeFragment).commit();
+        fragmentManager.beginTransaction().replace(R.id.sideMenu, sidemenuFragment).remove(homeFragment).addToBackStack(null).commit();
     }
 
     @Override
     public void SideMenuBackOnClick() {
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.mainFragment, homeFragment).commit();
-        fragmentManager.beginTransaction().remove(sidemenuFragment).commit();
+        this.onBackPressed();
+    }
+
+    @Override
+    public void lookForPhotographerOnClick() {
+        notImplemented();
+    }
+
+    @Override
+    public void activeRequestsOnClick() {
+        notImplemented();
+    }
+
+    @Override
+    public void pendingRequestsOnClick() {
+        notImplemented();
     }
 
     private void notImplemented(){

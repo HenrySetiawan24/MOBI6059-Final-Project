@@ -37,7 +37,7 @@ public class PhotographerDB {
         return id;
     }
 
-    public Boolean Update(int userID, Photographer updatedPhotographer){
+    public Boolean Update(long userID, Photographer updatedPhotographer){
         SQLiteDatabase db = dbHelper.getWritableDatabase();
 
         String selection ="id=?";
@@ -60,7 +60,7 @@ public class PhotographerDB {
         return false;
     }
 
-    public Boolean delete(int userID){
+    public Boolean delete(long userID){
         SQLiteDatabase db = dbHelper.getWritableDatabase();
 
         String selection ="id=?";
@@ -72,7 +72,7 @@ public class PhotographerDB {
         return false;
     }
 
-    public Photographer get(int userID){
+    public Photographer get(long userID){
         SQLiteDatabase db = dbHelper.getReadableDatabase();
 
         String selection ="id=?";

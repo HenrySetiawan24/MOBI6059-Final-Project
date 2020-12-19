@@ -34,7 +34,7 @@ public class UserDB {
         return id;
     }
 
-    public Boolean Update(int userID, User updatedUser){
+    public Boolean Update(long userID, User updatedUser){
         SQLiteDatabase db = dbHelper.getWritableDatabase();
 
         String selection ="id=?";
@@ -56,7 +56,7 @@ public class UserDB {
         return false;
     }
 
-    public Boolean delete(int userID){
+    public Boolean delete(long userID){
         SQLiteDatabase db = dbHelper.getWritableDatabase();
 
         String selection ="id=?";
@@ -68,7 +68,7 @@ public class UserDB {
         return false;
     }
 
-    public User get(int userID){
+    public User get(long userID){
         SQLiteDatabase db = dbHelper.getReadableDatabase();
 
         String selection ="id=?";
