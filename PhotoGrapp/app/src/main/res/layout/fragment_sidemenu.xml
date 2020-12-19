@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SidemenuFragment">
+    tools:showIn="navigation_view"
+    tools:context=".SidemenuFragment"
+    android:backgroundTint="@color/black">
 
     <!-- TODO: Update blank fragment layout -->
-
-
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/sideMenu"
         android:layout_width="311dp"
@@ -27,13 +27,13 @@
                 android:layout_marginLeft="20dp"
                 android:src="@drawable/logo" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/leftArrow"
-                android:layout_width="37dp"
+                android:layout_width="25dp"
                 android:layout_height="27dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginBottom="12dp"
-                android:src="@drawable/left_arrow" />
+                android:background="@drawable/left_arrow" />
 
             <!--Buat border-->
             <View
@@ -139,4 +139,4 @@
         </LinearLayout>
     </com.google.android.material.navigation.NavigationView>
 
-</FrameLayout>
+</RelativeLayout>

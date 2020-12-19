@@ -8,11 +8,11 @@
     android:background="#393939"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/navbarIcon"
+    <ImageButton
+        android:id="@+id/navBarIcon"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/navbar_icon" />
+        android:background="@drawable/navbar_icon" />
 
     <ImageView
         android:id="@+id/profilePic"
