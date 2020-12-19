@@ -1,5 +1,7 @@
 package com.henreh.binus.photograpp;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -41,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements FooterFragment.fo
 
     @Override
     public void historyOnClick() {
+            notImplemented();
 //        History fragment = new ProfileFragment();
 //
 //        FragmentManager fragmentManager = getSupportFragmentManager();
@@ -59,5 +62,16 @@ public class MainActivity extends AppCompatActivity implements FooterFragment.fo
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.mainFragment, homeFragment).commit();
         fragmentManager.beginTransaction().remove(sidemenuFragment).commit();
+    }
+
+    private void notImplemented(){
+        AlertDialog.Builder alert = new AlertDialog.Builder(this)
+                .setMessage("NotImplemented").setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+        alert.create().show();
     }
 }

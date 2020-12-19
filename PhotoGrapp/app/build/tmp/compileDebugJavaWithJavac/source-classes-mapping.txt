@@ -60,3 +60,4 @@ com/henreh/binus/photograpp/SidemenuFragment.java
  com.henreh.binus.photograpp.SidemenuFragment$SideMenuListener
 com/henreh/binus/photograpp/MainActivity.java
  com.henreh.binus.photograpp.MainActivity
+ com.henreh.binus.photograpp.MainActivity$1

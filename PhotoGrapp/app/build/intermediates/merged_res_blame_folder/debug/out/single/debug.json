@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_background_img.png.flat",
         "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\background_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user_detail.xml.flat",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logout_icon.png.flat",
-        "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\drawable\\logout_icon.png"
-    },
-    {
         "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logout_icon.png.flat",
+        "source": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\src\\main\\res\\drawable\\logout_icon.png"
     },
     {
         "merged": "C:\\Users\\Henry Setiawan\\Desktop\\Mobile Final Project\\MOBI6059-Final-Project\\PhotoGrapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
