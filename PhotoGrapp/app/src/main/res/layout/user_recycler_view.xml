@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:background="#00454545">
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
         <Button
             android:id="@+id/photographerButton"
             android:layout_width="327dp"
@@ -46,7 +45,8 @@
             android:layout_toEndOf="@+id/profilePic"
             android:text="[userName]"
             android:textSize="24dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/specialty"
@@ -57,7 +57,8 @@
             android:layout_marginTop="4dp"
             android:layout_toEndOf="@+id/profilePic"
             android:text="Specialty: [specialties]"
-            android:textSize="12dp" />
+            android:textSize="12dp"
+            android:textColor="@color/black"/>
 
         <ImageView
             android:id="@+id/gpsIcon"
@@ -78,9 +79,7 @@
             android:layout_marginTop="3dp"
             android:layout_toEndOf="@+id/gpsIcon"
             android:text="[location]"
-            android:textSize="12dp" />
-
-
+            android:textSize="12dp"
+            android:textColor="@color/black"/>
     </RelativeLayout>
-
 </androidx.appcompat.widget.LinearLayoutCompat>
